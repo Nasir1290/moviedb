@@ -1,9 +1,10 @@
-import Image from "next/image";
+import Movies from "@/components/Movies";
 
+<Movies/>
 export default function Home() {
   return (
     <div>
-      Hello World
+      <Movies/>
     </div>
   );
 }
