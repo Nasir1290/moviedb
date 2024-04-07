@@ -1,14 +1,14 @@
-// use client
-"use-client"
+
+
 
 import MovieDetails from "@/components/MovieDetails"
 
-const page = ({params:{id,lang}}) => {
+const MovieDetailsPage = ({params:{id,lang}}) => {
   return (
-    <div>
+    <section className=" ">
       <MovieDetails id={id} lang={lang}/>
-    </div>
+    </section>
   )
 }
 
-export default page
+export default MovieDetailsPage
