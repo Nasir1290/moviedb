@@ -6,3 +6,7 @@ const dictionaries = {
 }
 
 export const getDictionary = async (locale) => dictionaries[locale]()
+
+export const movieData = async () => {
+   return import('@/data/movieData.json').then((module) => module.default)
+}

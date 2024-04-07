@@ -1,34 +1,35 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Header = () => {
   return (
     <header>
       <nav className="container flex items-center justify-between space-x-10 py-6">
-        <a href="index.html">
+        <Link href="/">
           <Image src="/logo.svg" width={139} height={26} alt="" />
-        </a>
+        </Link>
         <ul className="flex items-center space-x-5">
           <li>
-            <a
+            <Link
               className="bg-primary/20 dark:bg-primary/[7%] rounded-lg backdrop-blur-[2px] p-1 inline-block"
-              href="#"
+              href="/"
             >
               <Image src="/ring.svg" width={24} height={24} alt="" />
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               className="bg-primary/20 dark:bg-primary/[7%] rounded-lg backdrop-blur-[2px] p-1 inline-block"
-              href="#"
+              href="/"
             >
               <Image src="/icons/sun.svg" width={24} height={24} alt="" />
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               className="bg-primary/20 dark:bg-primary/[7%] rounded-lg backdrop-blur-[2px] p-1 inline-block"
-              href="#"
+              href="/"
             >
               <Image
                 src="/shopping-cart.svg"
@@ -36,7 +37,7 @@ const Header = () => {
                 height={24}
                 alt=""
               />
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

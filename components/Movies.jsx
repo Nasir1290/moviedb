@@ -1,14 +1,16 @@
 import React from "react";
 import MovieCard from "./MovieCard";
-import movieData from "../data/movieData.json";
+import {movieData} from "@/app/[lang]/dictionaries.js";
 
-const Movies = () => {
+const Movies =async ({lang}) => {
+  const allMovieData = await movieData();
   return (
     <div className="content">
       <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-7">
-        {
-            <MovieCard
-             />}
+        {allMovieData.map((movieData) => (
+          <MovieCard key={movieData.id} movieData ={movieData} lang={lang}/>
+        ))
+            }
       </div>
     </div>
   );

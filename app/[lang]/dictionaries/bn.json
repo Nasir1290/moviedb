@@ -1,8 +1,15 @@
 {
-    "views": "ভিউস",
-    "share": "শেয়ার",
-    "uploadedOn": "আপলোড তারিখ",
-    "save": "সংরক্ষণ",
-    "followers": "অনুসারী",
-    "follow": "অনুসরণ করুন"
+
+    "trending":"ট্রেন্ডিং মুভি",
+    "newReleases":"নতুন মুভি",
+    "comingSoon":"খুব শীঘ্রই আসছে",
+    "favourites":"প্রিয় মুভি",
+    "watchLater":"পরে দেখুন",
+    "details":"বিস্তারিত",
+    "releaseDate":"প্রকাশের তারিখ",
+    "averageVote":"গড় ভোট",
+    "voteCount":"মোট ভোটের সংখ্যা",
+    "popularity":"জনপ্রিয়তা",
+    "downloadInHd":"HD মুভি Download করুন",
+    "streamInHD":"HD Stream দেখুন "
   }

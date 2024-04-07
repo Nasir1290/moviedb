@@ -1,10 +1,11 @@
+
 import Movies from "@/components/Movies";
 
-<Movies/>
-export default function Home() {
+
+export default function Home({params:{lang}}) {
   return (
     <div>
-      <Movies/>
+      <Movies lang={lang}/>
     </div>
   );
 }

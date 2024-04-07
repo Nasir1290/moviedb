@@ -1,8 +1,19 @@
 {
-    "views": "Views",
-    "share": "Share",
-    "uploadedOn": "Uploaded On",
-    "save": "Save",
-    "followers": "Followers",
-    "follow": "Follow"
+
+    "trending":"Trending",
+    "newReleases":"New Releases",
+    "comingSoon":"Coming Soon",
+    "favourites":"Favourites",
+    "watchLater":"Watch Later",
+    "details":"Details",
+    "releaseDate":"Release Date",
+    "averageVote":"Average Vote",
+    "voteCount":"Vote Count",
+    "popularity":"Popularity",
+    "downloadInHd":"Download In HD",
+    "streamInHD":"Stream In HD"
+    
+
+
+
   }
