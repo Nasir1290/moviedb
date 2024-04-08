@@ -11,4 +11,4 @@ const InterceptingMovieDetailsPage = ({params:{id,lang}}) => {
   )
 }
 
-export default InterceptingMovieDetailsPage
+export default InterceptingMovieDetailsPage;
