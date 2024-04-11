@@ -1,14 +1,12 @@
 
-
-
 import MovieDetails from "@/components/MovieDetails"
 
-const MovieDetailsPage = ({params:{id,lang}}) => {
+const InterceptingMovieDetailsPage = ({params:{id,lang}}) => {
   return (
-    <section className=" ">
+    <section>
       <MovieDetails id={id} lang={lang}/>
     </section>
   )
 }
 
-export default MovieDetailsPage
+export default InterceptingMovieDetailsPage;
