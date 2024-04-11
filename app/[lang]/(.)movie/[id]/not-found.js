@@ -1,10 +1,11 @@
+import React from 'react'
 
-const NotFoundPage = () => {
+function MovieNotFound() {
   return (
     <div>
-      The page was not found intecepted movie
+      not found from intercepted Movie
     </div>
   )
 }
 
-export default NotFoundPage
+export default MovieNotFound
