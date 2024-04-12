@@ -13,7 +13,7 @@ function MovieNotFoundPage() {
     
   return (
     <div className=" text-center text-red-500 font-bold flex flex-col">
-      OOPS !! Your requested URL was not Found !!
+      OOPS !! Movie with <span className=" text-green-500">👉{id}👈</span> this id was not Found !!
       <Link href="/">
         <button className=" bg-purple-500 font-bold px-3 py-2 text-white rounded-lg mt-4">Back Home</button>
       </Link>
