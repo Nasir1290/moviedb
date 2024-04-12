@@ -1,6 +1,7 @@
 // "use client"
 // import Link from 'next/link'
 
+
 // function MovieNotFound({ params }) {
 
 //  console.log(params)
@@ -17,15 +18,4 @@
 // export default MovieNotFound
 
 
-    
-    function MovieNotFound() {
-      return(
-        // <MovieNotFound/>
-        <div>
-          Hello
-        </div>
-      )
-    }
-    
-    export default MovieNotFound
-    
+
