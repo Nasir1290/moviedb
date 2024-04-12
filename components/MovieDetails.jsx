@@ -1,7 +1,7 @@
 import { getDictionary } from "@/app/[lang]/dictionaries";
-import MovieNotFoundPage from "@/app/[lang]/movie/[id]/NotFound";
 import { getMovieById } from "@/utils/utils";
 import Image from "next/image";
+import { notFound } from "next/navigation";
 
 const MovieDetails = async ({ id, lang }) => {
   let movieData = await getMovieById(id);
@@ -9,9 +9,7 @@ const MovieDetails = async ({ id, lang }) => {
   const dict = await getDictionary(lang);
 
   if (!movieData) {
-    return (
-      <MovieNotFoundPage/>
-    )
+    notFound();
   }
 
   if (movieData) {

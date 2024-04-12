@@ -42,7 +42,13 @@ export default function Modal({ children }) {
         ref={wrapper}
         className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-[420px] sm:max-w-[600px] lg:max-w-[984px] p-4 max-h-[90vh] overflow-auto"
       >
+        <div className=" text-right mb-2">
+          <button onClick={() => onDismiss()} className=" px-3 py-2 bg-red-500 text-red-200 rounded-lg">Close</button>
+        </div>
         {children}
+        <div className=" text-right mb-2">
+          <button onClick={() => onDismiss()} className=" px-3 py-2 bg-red-500 text-red-200 rounded-lg">Close</button>
+        </div>
       </div>
     </div>
   );
