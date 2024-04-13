@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const Header = () => {
   return (
@@ -40,7 +41,10 @@ const Header = () => {
             </Link>
           </li>
         </ul>
+        <LanguageSwitcher/>
       </nav>
+
+      
     </header>
   );
 };

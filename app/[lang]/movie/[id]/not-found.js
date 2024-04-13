@@ -9,7 +9,6 @@ function MovieNotFoundPage() {
 
     const {id} = useParams();
 
-    console.log(id)
     
   return (
     <div className=" text-center text-red-500 font-bold flex flex-col">
